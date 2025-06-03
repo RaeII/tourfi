@@ -1,0 +1,5 @@
+---
+#DEPLOY
+export NODE_ENV=test && npx hardhat deploy --network bsc --contract tourfi
+
+

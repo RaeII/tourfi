@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --background-overlay: #fafafafa;
+    --text-adaptive: #012048;
+    --tertiary: #ffffff;
+    --muted-foreground: 240 3.8% 46.1%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 240 5.9% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+
+    --backg: #ffffff;
+  }
+
+  .dark {
+    --primary: #0464E0;
+    --background: 218 92% 5%;
+    --foreground: 0 0% 98%;
+    --background-overlay: #012048;
+    --text-adaptive: #ffffff;
+    --tertiary: #034AA6;
+    --muted-foreground: 240 5% 64.9%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --accent: #F2D22E;
+    --accent-foreground: 0 0% 98%;
+
+    --backg: #012048;
+  }
+
+  body {
+    @apply bg-background text-primary transition-colors duration-300 min-h-screen;
+  }
+
+  .dark body {
+    @apply bg-background text-white;
+  }
+  
+  h1, h2, h3, h4, h5, h6, p, span {
+    @apply text-text-adaptive;
+  }
+
+}
+
+/* Adicione este código no final do arquivo para remover as setas do input numérico */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.imageBackground {
+  background-color: #012048;
+  background-image: linear-gradient(rgb(0 0 0 / 69%), rgb(14 14 14 / var(--tw-bg-opacity, 1))), url(./assets/pstadium.jpeg);
+  background-repeat: round;
+  background-size: cover;
+  position: relative;
+}
+
+.gradientBackground {
+  --tw-gradient-to: rgb(1 32 72 / 89%) var(--tw-gradient-to-position);
+  --tw-gradient-from: rgb(3 74 166 / 58%) var(--tw-gradient-from-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.color-primary {
+  color: #000000;
+}
+
+.icon {
+  color: var(--primary);
+  background-color: #012048;
+}
+
+/* Text truncation utilities */
+.line-clamp-1 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.line-clamp-3 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+/* Button styles */
+.btn-primary {
+  @apply bg-primary text-white hover:bg-primary/90 font-semibold;
+}
+
+.btn-secondary {
+  @apply bg-accent text-black hover:bg-accent/90 font-semibold;
+}
+
+.btn-outline-primary {
+  @apply border-2 border-primary text-primary hover:bg-primary hover:text-white transition-colors;
+}
+
+.btn-outline-secondary {
+  @apply border-2 border-accent text-accent hover:bg-accent hover:text-black transition-colors;
+}

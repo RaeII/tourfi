@@ -1,0 +1,20 @@
+{
+  "appName": "TourFi",
+  "footer": {
+    "features": "Recursos",
+    "paymentCard": "Cartão Web3",
+    "smartSearch": "IA de Busca",
+    "communityGuide": "Guia Comunitário",
+    "travelInsurance": "Seguro Viagem",
+    "company": "Empresa",
+    "about": "Sobre Nós",
+    "careers": "Carreiras",
+    "partners": "Parceiros",
+    "blog": "Blog",
+    "legal": "Jurídico",
+    "terms": "Termos de Serviço",
+    "privacy": "Política de Privacidade",
+    "cookies": "Cookies",
+    "copyright": "© {year} TourFi. Todos os direitos reservados."
+  }
+} 

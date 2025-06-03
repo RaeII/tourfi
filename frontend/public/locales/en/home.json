@@ -1,0 +1,74 @@
+{
+  "hero": {
+    "title": "TourFi",
+    "subtitle": "Revolutionizing Travel with Blockchain",
+    "description": "TourFi is a revolutionary travel agency with AI and crypto card for a new way to travel.",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More"
+  },
+  "problems": {
+    "title": "Solving Real Travel Problems",
+    "exchangeRates": {
+      "title": "Unfavorable Exchange Rates",
+      "description": "Say goodbye to high fees and poor exchange rates when traveling internationally."
+    },
+    "cardRisks": {
+      "title": "International Card Risks",
+      "description": "Eliminate security risks and unexpected blocks with our blockchain-based payment solution."
+    },
+    "findingDeals": {
+      "title": "Finding Best Deals",
+      "description": "Struggle to find the best travel deals for your budget? Our AI solves that."
+    },
+    "travelAdvice": {
+      "title": "Authentic Travel Advice",
+      "description": "Get trustworthy recommendations from an incentivized community of real travelers."
+    }
+  },
+  "features": {
+    "title": "Revolutionary Features",
+    "paymentCard": {
+      "title": "Web3 International Payment Card",
+      "description": "Our crypto card integrates directly with your web3 wallet, eliminating intermediaries and unnecessary fees. Enjoy foreign transactions without IOF and international banking fees.",
+      "benefits": {
+        "noFees": "No IOF or international fees",
+        "conversion": "Real-time crypto to local currency conversion",
+        "insurance": "Integrated travel insurance",
+        "vat": "VAT refund automation"
+      }
+    },
+    "searchAI": {
+      "title": "Smart Search AI & Price Alerts",
+      "description": "Our AI continuously monitors various sources to find the best prices and personalized travel recommendations. Receive proactive alerts and suggestions that match your preferences.",
+      "benefits": {
+        "monitoring": "Real-time price monitoring",
+        "recommendations": "Personalized travel recommendations",
+        "prediction": "Price prediction using ML algorithms",
+        "search": "Natural language search capabilities"
+      }
+    },
+    "communityGuide": {
+      "title": "Web3 Community Guide",
+      "description": "Our decentralized travel platform enables sharing authentic experiences and recommendations. Get rewarded with points for ticket discounts and XP to demonstrate your travel expertise.",
+      "benefits": {
+        "reviews": "Blockchain-verified authentic reviews",
+        "rewards": "Rewards for contributing valuable content",
+        "verification": "Presence verification for credibility",
+        "connect": "Connect with like-minded travelers"
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to Transform Your Travel Experience?",
+    "description": "Join Tourfi today and discover a new way to travel with lower fees, better deals, and authentic experiences.",
+    "joinWaitlist": "Join Waitlist",
+    "contactUs": "Contact Us"
+  },
+  "nav": {
+    "features": "Features",
+    "community": "Community",
+    "about": "About",
+    "signIn": "Sign In",
+    "joinWaitlist": "Join Waitlist"
+  }
+} 

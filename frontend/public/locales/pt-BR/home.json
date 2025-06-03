@@ -1,0 +1,74 @@
+{
+  "hero": {
+    "title": "TourFi",
+    "subtitle": "Revolucionando Viagens com Blockchain",
+    "description": "Agência de viagens inovadora com IA e cartão cripto para uma nova forma de viajar",
+    "getStarted": "Começar",
+    "learnMore": "Saiba Mais"
+  },
+  "problems": {
+    "title": "Resolvendo Problemas Reais de Viagens",
+    "exchangeRates": {
+      "title": "Taxas de Câmbio Desfavoráveis",
+      "description": "Diga adeus às altas taxas e câmbios desfavoráveis ao viajar internacionalmente."
+    },
+    "cardRisks": {
+      "title": "Riscos com Cartões Internacionais",
+      "description": "Elimine riscos de segurança e bloqueios inesperados com nossa solução de pagamento baseada em blockchain."
+    },
+    "findingDeals": {
+      "title": "Encontrando as Melhores Ofertas",
+      "description": "Dificuldade para encontrar as melhores ofertas de viagem para seu orçamento? Nossa IA resolve isso."
+    },
+    "travelAdvice": {
+      "title": "Dicas de Viagem Autênticas",
+      "description": "Obtenha recomendações confiáveis de uma comunidade incentivada de viajantes reais."
+    }
+  },
+  "features": {
+    "title": "Recursos Revolucionários",
+    "paymentCard": {
+      "title": "Cartão de Pagamento Internacional Web3",
+      "description": "Nosso cartão cripto se integra diretamente com sua carteira web3, eliminando intermediários e taxas desnecessárias. Desfrute de transações internacionais sem IOF e taxas bancárias internacionais.",
+      "benefits": {
+        "noFees": "Sem IOF ou taxas internacionais",
+        "conversion": "Conversão em tempo real de cripto para moeda local",
+        "insurance": "Seguro viagem integrado",
+        "vat": "Automação de reembolso de IVA"
+      }
+    },
+    "searchAI": {
+      "title": "IA de Busca Inteligente e Alertas de Preço",
+      "description": "Nossa IA monitora continuamente várias fontes para encontrar os melhores preços e recomendações personalizadas de viagem. Receba alertas proativos e sugestões que correspondam às suas preferências.",
+      "benefits": {
+        "monitoring": "Monitoramento de preços em tempo real",
+        "recommendations": "Recomendações de viagem personalizadas",
+        "prediction": "Previsão de preços usando algoritmos de ML",
+        "search": "Capacidades de busca em linguagem natural"
+      }
+    },
+    "communityGuide": {
+      "title": "Guia Comunitário Web3",
+      "description": "Nossa plataforma de viagens descentralizada permite compartilhar experiências e recomendações autênticas. Seja recompensado com pontos para descontos em passagens e XP para demonstrar sua experiência de viagem.",
+      "benefits": {
+        "reviews": "Avaliações autênticas verificadas por blockchain",
+        "rewards": "Recompensas por contribuir com conteúdo valioso",
+        "verification": "Verificação de presença para credibilidade",
+        "connect": "Conecte-se com viajantes de interesses semelhantes"
+      }
+    }
+  },
+  "cta": {
+    "title": "Pronto para Transformar sua Experiência de Viagem?",
+    "description": "Junte-se ao Tourfi hoje e descubra uma nova maneira de viajar com taxas mais baixas, melhores ofertas e experiências autênticas.",
+    "joinWaitlist": "Entrar na Lista de Espera",
+    "contactUs": "Fale Conosco"
+  },
+  "nav": {
+    "features": "Recursos",
+    "community": "Comunidade",
+    "about": "Sobre",
+    "signIn": "Entrar",
+    "joinWaitlist": "Lista de Espera"
+  }
+} 
