@@ -1,5 +1,101 @@
----
-#DEPLOY
+
+
+<div align="center">
+  <h1>TourFi Backend</h1>
+  <p>Smart Contracts e API do projeto TourFi construído na rede BNB Chain</p>
+</div>
+
+## 📚 Sobre
+
+O backend do TourFi é composto por smart contracts desenvolvidos em Solidity que gerenciam reservas, pagamentos e outras funcionalidades relacionadas ao turismo na blockchain. A aplicação utiliza Hardhat como framework de desenvolvimento e Node.js para a API que integra com os contratos.
+
+## 🔧 Tecnologias
+
+- **Blockchain**: BNB Chain
+- **Smart Contracts**: Solidity 0.8.21
+- **Framework**: Hardhat
+- **Backend**: Node.js, Express
+- **Bibliotecas**: OpenZeppelin, Ethers.js
+
+## 📋 Contratos Principais
+
+### TourFI.sol
+Contrato principal que integra o gerenciamento de viagens e turismo na blockchain:
+- Registro e gerenciamento de reservas
+- Sistema de pagamentos integrado com a BNB Chain
+- Verificação de status de pagamentos
+- Gerenciamento de fundos via treasury
+
+### Payment.sol
+Contrato base para processamento de pagamentos:
+- Verificação de assinaturas para autorização de pagamentos
+- Rastreamento de reservas pagas
+- Funcionalidades de saque e gerenciamento de fundos
+- Mecanismos de segurança contra reentrância
+
+## 🚀 Como Começar
+
+```bash
+# Instalar dependências
+yarn install
+
+# Compilar contratos
+yarn compile
+
+# Gerar tipos TypeScript
+yarn typechain
+
+# Executar testes
+yarn test
+
+# Iniciar ambiente de desenvolvimento
+yarn dev
+```
+
+## 📝 Deploy de Contratos
+
+```bash
+# Deploy na BSC Testnet
 export NODE_ENV=test && npx hardhat deploy --network bsc --contract tourfi
 
+# Verificar contrato na BSC Testnet
+npx hardhat verify --network bsc <ENDEREÇO_DO_CONTRATO> <ARGUMENTOS_DO_CONSTRUTOR>
+```
+
+## 🔗 Endereços dos Contratos
+
+| Contrato | BSC Testnet |
+|----------|----------|
+| TourFi | `0x63bE56747FECE0487F526008d7070713dBe3FfC5` |
+
+## 📦 Scripts Disponíveis
+
+- **compile**: Compila os contratos Solidity
+- **typechain**: Gera tipos TypeScript para os contratos
+- **deploy:contracts**: Executa o script de deploy dos contratos
+- **test**: Executa os testes dos contratos
+- **dev**: Inicia o servidor de desenvolvimento
+- **prod**: Inicia o servidor em modo produção
+
+## 🧪 Testes
+
+Execute o conjunto completo de testes com:
+
+```bash
+yarn test
+```
+
+## 🔒 Segurança
+
+Os contratos utilizam padrões de segurança como:
+- Proteção contra reentrância
+- Verificação de assinaturas
+- Padrão Checks-Effects-Interactions
+- Gerenciamento seguro de propriedade
+
+---
+
+<div align="center">
+  <p>TourFi - Revolucionando o turismo com blockchain</p>
+</div>
 
