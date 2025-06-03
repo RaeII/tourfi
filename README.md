@@ -1,6 +1,6 @@
 <div align="center">
   <img src="./frontend/public/images/tourfi_logo_azul.png" alt="TourFi Logo" width="200"/>
-  <p>🔗 <a href="http://64.23.128.77:4173/" target="_blank">TourFi APP</a></p>
+  <p>🔗 <a href="http://147.182.248.142:4173/" target="_blank">TourFi APP</a></p>
   <h3>Agência de viagens Web3 com IA e cartão cripto para uma nova forma de viajar</h3>
 </div>
 
