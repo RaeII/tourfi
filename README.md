@@ -30,6 +30,9 @@ TourFi é uma agência de viagens Web3 que combina blockchain, inteligência art
 |----------|----------|
 | TourFi | `0x63bE56747FECE0487F526008d7070713dBe3FfC5` |
 
+<p>🔗 <a href="https://testnet.bscscan.com/address/0x63bE56747FECE0487F526008d7070713dBe3FfC5" target="_blank">Contrato BSC Scan</a></p>
+
+
 ## 🚀 Como começar
 
 ```bash
